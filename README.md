@@ -1,12 +1,37 @@
-# React + Vite
+# 💪 BMI Calculator Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a stylish and interactive **BMI (Body Mass Index) Calculator** built using **ReactJS**, **HTML**, **CSS**, and **JavaScript**. The app allows users to input their height and weight, and calculates their BMI along with a categorized health suggestion. It also includes a BMI chart and the option to print/download the result.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧮 Real-time BMI calculation
+- 🟢 Health category output (Underweight, Normal, Overweight, Obese)
+- 🎨 Animated gradient background
+- 🖼️ Floating health icons (Heart, Apple, Dumbbell)
+- 📈 BMI chart for reference
+- 🖨️ Print or download report
+- 📱 Responsive design for mobile and desktop
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![BMI Calculator Screenshot](./screenshot.png)
+
+## 🛠️ Tech Stack
+
+- ReactJS (Functional Components & Hooks)
+- HTML5
+- CSS3 (Animations, Media Queries)
+- JavaScript (ES6+)
+
+## 📂 Folder Structure
+project-folder/
+├── public/
+│ ├── icons/
+│ │ ├── heart.png
+│ │ ├── apple.png
+│ │ └── dumbbell.png
+│ └── bmi.webp
+├── src/
+│ ├── App.js
+│ └── App.css
+└── README.md
